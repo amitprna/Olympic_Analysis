@@ -107,7 +107,7 @@ if user_menu == 'Country-wise Analysis':
     country_list = df['region'].dropna().unique().tolist()
     country_list.sort()
 
-    selected_country = st.sidebar.selectbox('Select a Country',country_list)
+    selected_country = st.sidebar.selectbox('Select a Country',country_list,index=39)
 
     country_df = helper.yearwise_medal_tally(df,selected_country)
     fig = px.line(country_df, x="Year", y="Medal")
