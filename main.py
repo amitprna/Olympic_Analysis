@@ -80,7 +80,7 @@ if user_menu == 'Overall Analysis':
     st.plotly_chart(fig)
 
     athlete_over_time = helper.data_over_time(df, 'Name')
-    fig = px.line(athlete_over_time, x="Edition", y="Name")
+    fig = px.line(athlete_over_time, x="Edition", y="No. Of Athletes")
     st.title("Athletes over the years")
     st.plotly_chart(fig)
 
