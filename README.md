@@ -10,7 +10,7 @@
 </summary>
  <h6>
   Crete a fully interactive  dashboard to analyse Olympic Statistics.
-</h6
+  </h6>
    </br>
 </h3>
   
