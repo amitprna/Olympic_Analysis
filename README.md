@@ -13,3 +13,17 @@
 </h6
    </br>
 </h3>
+
+ 
+<h3>
+  <br>
+<details>
+<summary>
+  Tools used
+</summary>
+ <h6>
+   <ul>Streamlit to host application</ul> 
+    <ul>Pandas for data analysis</ul>  
+</h6
+   </br>
+</h3>
